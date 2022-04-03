@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    border-radius: 9px;
+    background: #084B83;
+    width: max-content;
+    padding: 12px 35px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: cursive;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 3px solid #42BFDD;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+p {
+    font-family: cursive;
+    font-weight: bold;
+    color: #F0F6F6;
+    margin: 8px 0 8px 0;
+    font-size: 26px;
+}
+
+#inGame {
+    font-size: 40px;
+}
+
+#result {
+    font-size: 22px;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.option {
+    width: 81px;
+    margin: 20px 15px;
+    padding: 17px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #42BFDD;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #BBE6E4;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(120%);
+}
